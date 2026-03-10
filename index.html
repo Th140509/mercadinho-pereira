@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadinho Pereira (MP) · TCC Informática com Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f0f4f9;
+        }
+        .bg-mp-primary {
+            background: linear-gradient(135deg, #0d3b4f 0%, #1a627c 100%);
+        }
+        .text-mp-gold {
+            color: #f2b84b;
+        }
+        .border-mp-gold {
+            border-color: #f2b84b !important;
+        }
+        .btn-mp-gold {
+            background-color: #f2b84b;
+            color: #0d3b4f;
+            border: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .btn-mp-gold:hover {
+            background-color: #ffffff;
+            color: #0d3b4f;
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(242,184,75,0.4);
+        }
+        .card-dedic {
+            transition: transform 0.2s ease, box-shadow 0.2s;
+            border: none;
+            border-radius: 1.5rem;
+            background: white;
+        }
+        .card-dedic:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 30px -10px rgba(13,59,79,0.2);
+            border-left: 5px solid #f2b84b;
+        }
+        .ilustra-icon {
+            font-size: 5rem;
+            color: #0d3b4f;
+            background: #f2b84b30;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            border: 3px solid #f2b84b;
+        }
+        footer a {
+            color: #bcd3e3;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #f2b84b;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="bi bi-shop-window"></i> Mercadinho Pereira <span class="text-mp-gold">(MP)</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#resumo">Resumo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#objetivos">Objetivos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ilustracoes">Ilustrações</a></li>
+                <li class="nav-item"><a class="nav-link" href="#conclusao">Conclusão</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="bg-mp-primary text-white py-5 position-relative">
+    <div class="container py-4">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-8">
+                <span class="badge bg-warning text-dark mb-3 px-3 py-2 fs-6"><i class="bi bi-award-fill me-1"></i> TÉCNICO EM INFORMÁTICA · 2025</span>
+                <h1 class="display-3 fw-bold mb-3">Loja Virtual <span class="text-mp-gold">Mercadinho Pereira</span></h1>
+                <p class="lead fs-4 mb-4">Sistema de reserva online com retirada presencial · clique e retire sem pagamento virtual.</p>
+                <div class="d-flex flex-wrap gap-2 mt-4">
+                    <span class="badge bg-light text-dark p-3"><i class="bi bi-person-circle me-1"></i> Ângelo G.</span>
+                    <span class="badge bg-light text-dark p-3"><i class="bi bi-person-circle me-1"></i> Ezequiel A.</span>
+                    <span class="badge bg-light text-dark p-3"><i class="bi bi-person-circle me-1"></i> João G. L.</span>
+                    <span class="badge bg-light text-dark p-3"><i class="bi bi-person-circle me-1"></i> Luiz F. M.</span>
+                    <span class="badge bg-light text-dark p-3"><i class="bi bi-person-circle me-1"></i> Thiago M.</span>
+                </div>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block text-center">
+                <i class="bi bi-cart4" style="font-size: 12rem; opacity: 0.2; color: #f2b84b;"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="bg-white border-bottom py-3">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-3 text-center">
+            <div class="col">
+                <div class="p-3"><i class="bi bi-building fs-3 text-mp-gold"></i> <strong>Colégio SR MILLENNIUM</strong><br><small class="text-secondary">Nova Iguaçu</small></div>
+            </div>
+            <div class="col">
+                <div class="p-3"><i class="bi bi-people fs-3 text-mp-gold"></i> <strong>Orientadores</strong><br><small>Fabiano V. · Simone N. · Wagner S.</small></div>
+            </div>
+            <div class="col">
+                <div class="p-3"><i class="bi bi-calendar-check fs-3 text-mp-gold"></i> <strong>Ano</strong><br><small>2025</small></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="display-5 fw-bold mb-4"><i class="bi bi-heart-fill text-mp-gold me-2"></i> Dedicatórias da equipe</h2>
+        <div class="row g-4">
+            <?php foreach($dedicatorias as $d): ?>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 card-dedic p-4 shadow-sm">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-quote fs-1 text-mp-gold opacity-50"></i>
+                        <h4 class="ms-2 fw-bold"><?= $d['nome'] ?></h4>
+                    </div>
+                    <p class="text-secondary fst-italic"><?= $d['texto'] ?></p>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+
+
+<div class="bg-white py-4 border-top border-bottom border-mp-gold">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center gap-3">
+                    <span class="badge bg-dark text-white p-3 fs-6"><i class="bi bi-clock-history me-1"></i> <?= date('d/m/Y H:i:s') ?> · PHP <?= phpversion() ?></span>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3 mt-md-0">
+                <div class="alert alert-warning text-center mb-0 fw-bold" role="alert" id="fraseClique" style="cursor: pointer; background: #f2b84b20; border: 2px solid #f2b84b;">
+                    <?= $frase ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="resumo" class="py-5">
+    <div class="container">
+        <div class="card bg-dark text-white border-0 rounded-5 overflow-hidden">
+            <div class="card-body p-5" style="background: radial-gradient(circle at 70% 30%, #1f6f8f, #08323f);">
+                <h2 class="fw-bold mb-4"><i class="bi bi-file-text me-2"></i> Resumo</h2>
+                <p class="lead fs-6 mb-4 p-4 bg-black bg-opacity-25 rounded-4 border-start border-4 border-warning">
+                    <strong>Sistema de Reserva Online – Mercadinho Pereira. 2025. 35f. TCC (Técnico em Informática) – Colégio SR Millennium.</strong><br>
+                    O comércio eletrônico moderniza pequenos negócios. Este trabalho descreve análise, projeto e desenvolvimento de um sistema de reserva online para o Mercadinho Pereira, permitindo que clientes reservem produtos pela internet e retirem na loja, sem pagamento online. Utilizamos modelagem UML, front-end responsivo (HTML, CSS, JS), back-end em PHP e banco MySQL. Resultado: site com catálogo, reservas, e-mail de confirmação e área administrativa.
+                </p>
+                <div class="d-flex gap-2 flex-wrap">
+                    <span class="badge bg-warning text-dark p-3">HTML5</span>
+                    <span class="badge bg-warning text-dark p-3">CSS3</span>
+                    <span class="badge bg-warning text-dark p-3">JavaScript</span>
+                    <span class="badge bg-warning text-dark p-3">PHP 8</span>
+                    <span class="badge bg-warning text-dark p-3">MySQL</span>
+                    <span class="badge bg-warning text-dark p-3">UML</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="objetivos" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="display-5 fw-bold mb-5"><i class="bi bi-bullseye text-mp-gold me-2"></i> Objetivos</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm p-4">
+                    <h3 class="h3 fw-bold"><i class="bi bi-flag-fill text-mp-gold me-2"></i> Geral</h3>
+                    <p class="bg-light p-4 rounded-3 fs-5">Desenvolver e implementar um sistema de reserva online funcional e intuitivo para o Mercadinho Pereira, permitindo reservas via internet com retirada e pagamento na loja física.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm p-4">
+                    <h3 class="h3 fw-bold"><i class="bi bi-list-check text-mp-gold me-2"></i> Específicos</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-mp-gold me-2"></i> Analisar processos e requisitos</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-mp-gold me-2"></i> Projetar arquitetura com UML</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-mp-gold me-2"></i> Desenvolver front-end responsivo</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-mp-gold me-2"></i> Back-end PHP + MySQL</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-mp-gold me-2"></i> Módulo administrativo</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-mp-gold me-2"></i> Confirmação por e-mail</li>
+                        <li class="mb-3"><i class="bi bi-check-circle-fill text-mp-gold me-2"></i> Testes de usabilidade</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="ilustracoes" class="py-5">
+    <div class="container">
+        <h2 class="display-5 fw-bold mb-5"><i class="bi bi-images text-mp-gold me-2"></i> Representações visuais</h2>
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="p-4 bg-white rounded-5 shadow">
+                    <div class="ilustra-icon mx-auto"><i class="bi bi-diagram-3"></i></div>
+                    <h4 class="fw-bold mt-3">Diagrama UML</h4>
+                    <p class="text-secondary">Modelagem de classes e casos de uso</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 bg-white rounded-5 shadow">
+                    <div class="ilustra-icon mx-auto"><i class="bi bi-phone"></i></div>
+                    <h4 class="fw-bold mt-3">Front-end responsivo</h4>
+                    <p class="text-secondary">HTML, CSS, Bootstrap, JavaScript</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 bg-white rounded-5 shadow">
+                    <div class="ilustra-icon mx-auto"><i class="bi bi-database"></i></div>
+                    <h4 class="fw-bold mt-3">Banco de dados</h4>
+                    <p class="text-secondary">MySQL · Estrutura relacional</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="conclusao" class="py-5 bg-dark text-white">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h2 class="display-5 fw-bold mb-4"><i class="bi bi-star-fill text-mp-gold me-2"></i> Conclusão</h2>
+                <div class="bg-black bg-opacity-25 p-5 rounded-5 border-start border-5 border-warning">
+                    <p class="fs-5">O TCC atingiu o objetivo de criar um sistema de reserva online para o Mercadinho Pereira. Utilizamos modelagem UML, HTML, CSS, JS, PHP e MySQL. A solução mostra como pequenos negócios podem usar tecnologia acessível para melhorar atendimento, controle de estoque e presença digital. O sistema funciona conforme planejado e representa um avanço na modernização do comércio local.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="bg-black text-white-50 py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <i class="bi bi-c-circle me-1"></i> <?= $anoAtual ?> Mercadinho Pereira (MP) · Técnico em Informática · SR MILLENNIUM
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                <a href="#" class="text-white text-decoration-none me-3" onclick="subirAoTopo(); return false;"><i class="bi bi-arrow-up-circle-fill me-1"></i> Voltar ao topo</a>
+                <a href="#" class="text-white-50"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white-50 ms-3"><i class="bi bi-envelope-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+    function subirAoTopo() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+        const fraseEl = document.getElementById('fraseClique');
+        if (fraseEl) {
+            fraseEl.addEventListener('click', function() {
+                const opcoes = [
+                    "🛒 Reserve já! Clique e retire sem filas",
+                    "📦 Mercadinho Pereira: moderno e perto de você",
+                    "✅ Catálogo online, reserve em segundos",
+                    "📱 Acesse do celular ou computador",
+                    "⚡ Tecnologia que aproxima!"
+                ];
+                const nova = opcoes[Math.floor(Math.random() * opcoes.length)];
+                fraseEl.textContent = nova;
+                fraseEl.style.background = "#f2b84b";
+                fraseEl.style.color = "#0d3b4f";
+                fraseEl.style.transition = "0.3s";
+            });
+        }
+    });
+</script>
+
+</body>
+</html>
